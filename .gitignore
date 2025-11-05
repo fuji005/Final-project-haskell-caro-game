@@ -1,0 +1,21 @@
+# Lờ đi các file build của Cabal và Stack
+dist/
+dist-newstyle/
+.stack-work/
+
+# Lờ đi các file tạm của Haskell
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+
+# Lờ đi các file tạm của OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
